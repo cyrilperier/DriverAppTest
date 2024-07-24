@@ -1,0 +1,151 @@
+package theme
+
+import androidx.compose.ui.graphics.Color
+
+// Standard color palette
+val white = Color(0xFFFFFFFF)
+val black = Color(0xFF000000)
+
+// Airbus blue color palette
+val blue_100 = Color(0xFF001B4D)
+val blue_90 = Color(0xFF00205B)
+val blue_80 = Color(0xFF002466)
+val blue_70 = Color(0xFF002D80)
+val blue_60 = Color(0xFF063B9E)
+val blue_50 = Color(0xFF255FCC)
+val blue_40 = Color(0xFF457DE5)
+val blue_30 = Color(0xFF6F9BED)
+val blue_20 = Color(0xFFA5C0F2)
+val blue_10 = Color(0xFFE5EAF2)
+
+// Airbus sky blue color palette
+val skyBlue_100 = Color(0xFF00111B)
+val skyBlue_90 = Color(0xFF002236)
+val skyBlue_80 = Color(0xFF003351)
+val skyBlue_70 = Color(0xFF00446C)
+val skyBlue_60 = Color(0xFF005587)
+val skyBlue_50 = Color(0xFF0B78B8)
+val skyBlue_40 = Color(0xFF2E9FE0)
+val skyBlue_30 = Color(0xFF6CBFF0)
+val skyBlue_20 = Color(0xFFA3D4F0)
+val skyBlue_10 = Color(0xFFE6EFF5)
+
+// Airbus cool grey color palette
+val coolGrey_100 = Color(0xFF14171D)
+val coolGrey_90 = Color(0xFF282E3A)
+val coolGrey_80 = Color(0xFF3C4657)
+val coolGrey_70 = Color(0xFF505D74)
+val coolGrey_60 = Color(0xFF647592)
+val coolGrey_50 = Color(0xFF8390A7)
+val coolGrey_40 = Color(0xFFA2ACBD)
+val coolGrey_30 = Color(0xFFC1C7D3)
+val coolGrey_20 = Color(0xFFE0E3E9)
+val coolGrey_10 = Color(0xFFEFF1F4)
+
+// Airbus warm grey color palette
+val warmGrey_100 = Color(0xFF24282A)
+val warmGrey_90 = Color(0xFF495054)
+val warmGrey_80 = Color(0xFF6D787E)
+val warmGrey_70 = Color(0xFF92A0A8)
+val warmGrey_60 = Color(0xFFB7C9D3)
+val warmGrey_50 = Color(0xFFC5D3DB)
+val warmGrey_40 = Color(0xFFD3DEE4)
+val warmGrey_30 = Color(0xFFE2E9ED)
+val warmGrey_20 = Color(0xFFF0F4F6)
+val warmGrey_10 = Color(0xFFF7F9FA)
+
+// Airbus green color palette
+val green_100 = Color(0xFF043323)
+val green_90 = Color(0xFF064530)
+val green_80 = Color(0xFF07593E)
+val green_70 = Color(0xFF097350)
+val green_60 = Color(0xFF08875B)
+val green_50 = Color(0xFF03B075)
+val green_40 = Color(0xFF2ED19B)
+val green_30 = Color(0xFF67EBBF)
+val green_20 = Color(0xFFA5F2D8)
+val green_10 = Color(0xFFE5F7F1)
+
+// Airbus yellow color palette
+val yellow_100 = Color(0xFF322500)
+val yellow_90 = Color(0xFF644B00)
+val yellow_80 = Color(0xFF9E7700)
+val yellow_70 = Color(0xFFD6A100)
+val yellow_60 = Color(0xFFFABD00)
+val yellow_50 = Color(0xFFFBCA32)
+val yellow_40 = Color(0xFFFCD766)
+val yellow_30 = Color(0xFFFDE499)
+val yellow_20 = Color(0xFFFEF1CC)
+val yellow_10 = Color(0xFFFEF8E5)
+
+// Airbus red color palette
+val red_100 = Color(0xFF2D0008)
+val red_90 = Color(0xFF5B0011)
+val red_80 = Color(0xFF880019)
+val red_70 = Color(0xFFB60022)
+val red_60 = Color(0xFFE4002B)
+val red_50 = Color(0xFFE93255)
+val red_40 = Color(0xFFEE667F)
+val red_30 = Color(0xFFF499AA)
+val red_20 = Color(0xFFF9CCD4)
+val red_10 = Color(0xFFFCE5E9)
+
+// Airbus orange color palette
+val orange_100 = Color(0xFF331700)
+val orange_90 = Color(0xFF662F00)
+val orange_80 = Color(0xFF994700)
+val orange_70 = Color(0xFFBD5800)
+val orange_60 = Color(0xFFFF7700)
+val orange_50 = Color(0xFFFF9232)
+val orange_40 = Color(0xFFFFAD66)
+val orange_30 = Color(0xFFFFC899)
+val orange_20 = Color(0xFFFFE3CC)
+val orange_10 = Color(0xFFFFF1E5)
+
+// Airbus lime green color palette
+val limeGreen_100 = Color(0xFF1A2500)
+val limeGreen_90 = Color(0xFF344B00)
+val limeGreen_80 = Color(0xFF4F7100)
+val limeGreen_70 = Color(0xFF699700)
+val limeGreen_60 = Color(0xFF84BD00)
+val limeGreen_50 = Color(0xFF9CCA32)
+val limeGreen_40 = Color(0xFFB5D766)
+val limeGreen_30 = Color(0xFFCDE499)
+val limeGreen_20 = Color(0xFFE6F1CC)
+val limeGreen_10 = Color(0xFFF2F8E5)
+
+// Airbus lime yellow color palette
+val limeYellow_100 = Color(0xFF2D2C00)
+val limeYellow_90 = Color(0xFF5A5900)
+val limeYellow_80 = Color(0xFF878600)
+val limeYellow_70 = Color(0xFFB4B300)
+val limeYellow_60 = Color(0xFFE1E000)
+val limeYellow_50 = Color(0xFFE7E632)
+val limeYellow_40 = Color(0xFFEDEC66)
+val limeYellow_30 = Color(0xFFF3F299)
+val limeYellow_20 = Color(0xFFF9F8CC)
+val limeYellow_10 = Color(0xFFFCFBE5)
+
+// Airbus pink color palette
+val pink_100 = Color(0xFF2B041A)
+val pink_90 = Color(0xFF570934)
+val pink_80 = Color(0xFF820E4F)
+val pink_70 = Color(0xFFAE1369)
+val pink_60 = Color(0xFFDA1884)
+val pink_50 = Color(0xFFE1469C)
+val pink_40 = Color(0xFFE874B5)
+val pink_30 = Color(0xFFF0A2CD)
+val pink_20 = Color(0xFFF7D0E6)
+val pink_10 = Color(0xFFFBE7F2)
+
+// Airbus purple color palette
+val purple_100 = Color(0xFF21041C)
+val purple_90 = Color(0xFF420939)
+val purple_80 = Color(0xFF630E56)
+val purple_70 = Color(0xFF841373)
+val purple_60 = Color(0xFFA51890)
+val purple_50 = Color(0xFFB746A6)
+val purple_40 = Color(0xFFC974BC)
+val purple_30 = Color(0xFFDBA2D2)
+val purple_20 = Color(0xFFEDD0E8)
+val purple_10 = Color(0xFFF6E7F3)
