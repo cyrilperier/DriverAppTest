@@ -10,7 +10,6 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -53,9 +52,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import gestionsci.composeapp.generated.resources.Res
-import gestionsci.composeapp.generated.resources.arrow_back
-import gestionsci.composeapp.generated.resources.chevron_right
+import driverapp.composeapp.generated.resources.Res
+import driverapp.composeapp.generated.resources.arrow_back
+import driverapp.composeapp.generated.resources.chevron_right
 
 import navigation.Screen
 import org.jetbrains.compose.resources.DrawableResource
