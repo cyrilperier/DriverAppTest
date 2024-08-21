@@ -11,10 +11,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import gestionsci.composeapp.generated.resources.Res
-import gestionsci.composeapp.generated.resources.calendar_icon
-import gestionsci.composeapp.generated.resources.formular
-import gestionsci.composeapp.generated.resources.info_icon
+import driverapp.composeapp.generated.resources.Res
+import driverapp.composeapp.generated.resources.calendar_icon
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 
@@ -35,8 +33,6 @@ fun MainScreen() {
 fun BottomNavigationBar(navController: NavHostController) {
     val items = listOf(
         BottomNavItem.Calendar,
-        BottomNavItem.StayForm,
-        BottomNavItem.Information
     )
     BottomNavigation {
         val navBackStackEntry by navController.currentBackStackEntryAsState()
@@ -64,21 +60,14 @@ fun BottomNavigationBar(navController: NavHostController) {
 
 @Composable
 fun NavigationGraph(navController: NavHostController) {
-    NavHost(navController, startDestination = BottomNavItem.StayForm.route) {
+    NavHost(navController, startDestination = BottomNavItem.Calendar.route) {
         composable(BottomNavItem.Calendar.route) {
-
-        }
-        composable(BottomNavItem.StayForm.route) {
-
-        }
-        composable(BottomNavItem.Information.route) {
-
+            MyView()
         }
     }
 }
 
 sealed class BottomNavItem(var title: String, var icon: DrawableResource, var route: String) {
     object Calendar : BottomNavItem("Calendar", Res.drawable.calendar_icon, "calendar")
-    object StayForm : BottomNavItem("Stay Form", Res.drawable.formular, "stay_form")
-    object Information : BottomNavItem("Information", Res.drawable.info_icon, "information")
+
 }

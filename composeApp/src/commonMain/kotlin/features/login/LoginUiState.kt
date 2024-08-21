@@ -10,5 +10,7 @@ sealed class LoginUiState {
     data class NotConnected(
         var email: String ="",
         var password: String ="",
+        var passwordVisible: Boolean = false,
+        var withPassword: Boolean = false,
     ) : LoginUiState()
 }

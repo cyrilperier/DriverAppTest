@@ -1,10 +1,10 @@
 package navigation
 
 
-import gestionsci.composeapp.generated.resources.Res
-import gestionsci.composeapp.generated.resources.app_name
-import gestionsci.composeapp.generated.resources.home_bottombar_icon
-import gestionsci.composeapp.generated.resources.home_bottombar_icon_selected
+import driverapp.composeapp.generated.resources.Res
+import driverapp.composeapp.generated.resources.app_name
+import driverapp.composeapp.generated.resources.home_bottombar_icon
+import driverapp.composeapp.generated.resources.home_bottombar_icon_selected
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.StringResource
 

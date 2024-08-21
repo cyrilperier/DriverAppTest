@@ -1,4 +1,4 @@
-rootProject.name = "GestionSci"
+rootProject.name = "DriverApp"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
